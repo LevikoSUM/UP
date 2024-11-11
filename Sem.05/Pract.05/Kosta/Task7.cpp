@@ -4,7 +4,7 @@ int longestEqualSubArray(int arr[], int size)
 	int currentLenght = 1;
 	for (int i = 0; i < size; i++)
 	{
-		if (arr[i] = arr[i + 1])
+		if (arr[i] == arr[i + 1])
 		{
 			currentLenght++;
 			if (currentLenght > maxLenght)
